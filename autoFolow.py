@@ -18,8 +18,8 @@ class AutoFollow:
     def __init__(self, page):
         """Método construtor"""
         self.driver = webdriver.Firefox()
-        self.user = "dotsystemgo"
-        self.passw = "Alc250489"
+        self.user = "..."
+        self.passw = "..."
         self.page = page
         self.followlist = ""
         self.follows = 0
@@ -118,4 +118,4 @@ class AutoFollow:
 if __name__ == '__main__':
     while True:
         Timeout(15).start()
-        AutoFollow('prefeiturasenadorcanedo').openpg()
+        AutoFollow('...').openpg()
